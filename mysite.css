@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* 초기값 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset,
+legend, p, select, table, th, td, tr, textarea, button, form {margin: 0; padding: 0;}
+
+ul, ol{list-style-type: none;
+	   /* border: 1px solid #000000; */
+	   float: right;
+	   margin: 20px 0px 0px 0px;}
+
+/* 링크관련 */
+a:link    {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover   {color: #000000; text-decoration: none;}   
+a:active  {color: #000000; text-decoration: none;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/************** 레이아웃 **************/
+
+#wrap{width: 1000px;
+	  margin: 0px auto;}
+
+#header{background-color: #ffffff;
+		border-bottom: 2px solid #dddddd;
+		padding: 10px 0px 10px 0px;}
+
+/************** 레이아웃 **************/
+
+#nav{background-color: #00ff00;
+	 padding: 10px 0px 30px 0px;}
+
+/************** 레이아웃 **************/
+
+#contents{background-color: #ff00ff;}
+
+/************** 레이아웃 **************/
+
+#footer{background-color: #ff0000;}
+
+/************** 헤더 -로고 로그인 회원가입- **************/
+
+h1{font-size: 35px;
+   color: #79b30b;
+   font-weight: bold;
+   float: left;}
+ul{margin: 15px 0px 0px 0px;
+   float: right;}
+li{font-size: 14px;
+   margin: 0px 0px 0px 20px;
+   float: left;}
+
+/************** 네비 -입사지원서 게시판 갤러리 방명록- **************/
+
+
+.nav-t{font-size: 100px;}
+
+
+
+

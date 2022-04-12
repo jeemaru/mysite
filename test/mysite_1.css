@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 초기값 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset,
+legend, p, select, table, th, td, tr, textarea, button, form {margin: 0; padding: 0;}
+
+/* 링크관련 */
+a:link    {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover   {color: #000000; text-decoration: none;}   
+a:active  {color: #000000; text-decoration: none;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+ol{list-style-type: none;}
+
+
+#div-1{border-bottom: 1px solid #000000;}
+#div-1>ol{float: right;
+		  padding: 30px 0px 0px 0px;}
+body{width: 1000px;
+	 margin: 0px auto;
+	 border: 1px solid #000000;
+	 padding: 3px;}
+h1{color: #00ff00;
+   float: left;
+   padding: 10px 0px 10px 15px;}
+li {float: left;
+	padding: 0px 20px 0px 0px;}
+	
+	
+	
+#div-2{border-bottom: 1px solid #000000;
+	   margin: 0px 0px 40px 0px;}
+#div-2>ol>li{padding: 20px 90px 20px 90px;
+			 font-size: 20px;
+			 font-weight: bold;}
+			 
+	
+#div-3{background-image: url("../css_02/img/jung.jpg");
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   width: 300px;
+	   height: 350px;
+	   margin: 0px 30px 30px 0px;
+	   float: left;}
+t-d{float: left;}
+.t-1{font-size: 20px;
+	 font-weight: bolder;}
+.t-2{letter-spacing: -1px;}
+
+
+#div-4{background-color: #dddddd;
+	   text-align: center;}
+	
+	

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* 초기값 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset,
+legend, p, select, table, th, td, tr, textarea, button, form {margin: 0; padding: 0;}
+
+ul, ol{list-style-type: none;
+	   /* border: 1px solid #000000; */
+	   margin: 0px 0px 0px 0px;}
+
+/* 링크관련 */
+a:link    {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover   {color: #000000; text-decoration: none;}   
+a:active  {color: #000000; text-decoration: none;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/************** 레이아웃 **************/
+.bold{font-weight: bold;}
+
+#wrap{width: 1000px;
+	  margin: 0px auto;}
+	  
+#header{border-bottom: 2px solid #dddddd;
+		padding: 10px 0px 10px 0px;}
+
+/************** 레이아웃 **************/
+			
+#nav{border-bottom: 2px solid #dddddd;
+	 padding: 10px 0px 10px 0px;}
+
+/************** 레이아웃 **************/
+	 
+#full-contents{padding: 40px 20px 40px 20px;}	
+
+/************** 메인컨텐츠 **************/
+#contents>#main-content{float: left;
+						width: 810px;}
+
+
+/************** 컨텐츠 aside **************/
+
+#contents{padding: 20px 0px 20px 0px;}
+
+#contents>#aside{float: left;
+				 width: 170px;
+				 margin: 0px 20px 0px 0px;}
+
+#contents>#aside>h2{background-color: #dddddd;
+					height: 60px;
+					font-size: 20px;
+					text-align: center;
+					line-height: 60px;}
+					
+#contents>#aside>ul>li{border: 1px solid #a6a6a6;
+					   padding: 8px 0px 8px 4px;
+					   margin: 4px 0px 0px 0px;}
+
+
+#footer{background-color: #dddddd;
+		padding: 10px 0px 10px 0px;}	 
+
+/************** 헤드 **************/
+	 
+h1{font-size: 35px;
+   color: #79b30b;
+   font-weight: bold;
+   float: left;}
+#header ul{margin: 15px 0px 0px 0px;
+		   float: right;}
+#header ul>li{font-size: 14px;
+  			  margin: 0px 0px 0px 20px;
+   			  float: left;}
+
+/************** 네비 **************/
+#nav ul>li{float: left;
+		   width: 250px;
+		   font-size: 20px;
+		   font-weight: bold;
+		   text-align: center;}
+		   
+/************** 컨텐츠 **************/
+
+
+/************** 풋터 **************/
+#footer{font-size: 12px;
+		text-align: center;}	  

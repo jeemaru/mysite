@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.form-group{padding: 0px 0px 10px 0px;}
+
+#main-content-body .form-title{width: 80px;
+							   display: inline-block;}
+ 
+#main-content-body #sel-board{width: 162px;}
+
+#main-content-body #txt-title{width: 700px;}
+
+#main-content-body #txt-password{width: 180px;}
+
+#main-content-body #txt-content{width: 808px; 
+								height: 200px;}
+								
+#main-content-footer{padding : 20px 0px 20px 0px;
+					 text-align: center;}
+					 
+.box{padding: 0px 0px 0px 190px;}
+
+input[type="text"]{padding: 6px 3px 6px 6px;}
+
+input[type="password"]{padding: 6px 3px 6px 6px;}
+
+input[type="radio"]{width: 15px;
+					height: 15px;
+					margin: 0px 20px 0px 0px;}
+
+input[type="file"]{cursor: pointer;}
+
+textarea {padding: 6px 3px 6px 6px;
+		  font-size: 13px;
+		  font-family: "맑은 고딕", 돋움, 굴림;
+		  margin: 0px 0px 0px 0px;}
+
+.btn {padding: 5px 0px 5px 0px;
+	  width: 80px;
+	  cursor: pointer;}
+
+#main-content{width: 820px;
+			  float: left;}
+
+#main-content-header{border-bottom: 1px solid #000000;
+					 padding: 18px 0px 5px 0px;}
+					 
+#main-content-header>h3{float: left;}
+
+#main-list{float: right;}
+
+#main-list>li{float: left;
+			 	 padding: 0px 0px 0px 0px;}
+			 	 
+#main-list>li:after{content: ">";
+					padding: 0px 5px 0px 5px;}
+
+#border{float: right;}
+#t-border{border-top: 1px solid #000000;
+		 border-bottom: 1px solid #000000;}
+.button-r{float: right;
+		  margin: 30px 0px 5px 0px;}
+.button{padding: 5px 20px 5px 20px;
+		margin: 0px 0px 10px 5px;}
+
+table{width: 100%;
+	  text-align: center;
+	  border-collapse: collapse;}
+table>thead>tr{background-color: #dddddd;}
+table>tbody>tr{border-bottom: 1px dotted #000000;
+			   border-top: 1px dotted #000000;}
+tr{height: 40px;}
+
+
+#number{margin: 10px 0px 0px 10px;
+		text-align: center;}
+a{float: reft;
+  padding: 0px 5px 0px 0px;
+  margin: 0px 0px;}
+button{float: right;
+	   padding: 5px 10px;}
+	   
+	   
+	   
+	   
+	   
+#inpo>div{border-bottom: 1px solid #dddddd;}
+
+.text-l{display: inline-block;
+		width: 100px;
+		padding: 12px 0px;}
+		
+input[type="checkbox"]{margin: 0px 10px; padding: 0px 0px 0px 0px;}
+		
+#long-t{margin: 0px 0px 0px 106px;
+	width: 500px;}
+	
+#id{background-color: #ffffff;}
+#passwrod{background-color: #ffffff;}
+#name{background-color: #ffffff;}
+#f-img{background-color: #ffffff;}
+#adr{background-color: #ffffff;}
+#tel{background-color: #ffffff;}
+#age{background-color: #ffffff;}
+#hab{background-color: #ffffff;}
+#self{background-color: #ffffff;
+width: 500px;
+height: 100px;}
+#file-img{margin: 10px 623px 12px 0px;}
+#butten-2{background-color: #ddddfd;}
